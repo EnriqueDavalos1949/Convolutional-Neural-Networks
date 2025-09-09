@@ -1,7 +1,7 @@
 # MNIST CNN Handwritten Digit Classifier
 
-This repository contains a Convolutional Neural Network (CNN) implemented in **TensorFlow** for classifying handwritten digits from the **MNIST dataset**.  
-It includes preprocessing, model training, and visualization of sample images, as well as conversion to **TensorFlow.js** for web deployment.
+This repository contains a **Convolutional Neural Network (CNN)** implemented in **TensorFlow** for classifying handwritten digits from the **MNIST dataset**.  
+It includes preprocessing, model training, visualization of sample images, and conversion to **TensorFlow.js** for web deployment.
 
 ## Features
 - Data normalization and batching using TensorFlow Datasets.
@@ -10,19 +10,21 @@ It includes preprocessing, model training, and visualization of sample images, a
 - Visualization of the first 25 samples from the training dataset.
 - Export trained model to Keras H5 format and conversion to TensorFlow.js.
 
-## Folder Structure
-- `numeros_conv.h5` → Trained Keras model.  
-- `carpeta_salida/` → TensorFlow.js converted model for web use.  
+## Repository Structure
+- `notebooks/` → Jupyter notebooks for interactive exploration.
+- `src/` → Python scripts for training and preprocessing.
+- `models/` → Trained Keras models (`numeros_conv.h5`).
+- `tfjs_model/` → TensorFlow.js converted model for web use.
 
 ## Requirements
 - Python 3.9+  
 - TensorFlow  
 - TensorFlow Datasets  
 - Matplotlib  
-- TensorFlow.js (for model conversion)
+- TensorFlow.js (for conversion)
 
-## Usage
-1. Train the model:
+Install dependencies:
 ```bash
-python train_model.py
+pip install -r requirements.txt
+
 
