@@ -11,10 +11,9 @@ It includes preprocessing, model training, visualization of sample images, and c
 - Export trained model to Keras H5 format and conversion to TensorFlow.js.
 
 ## Repository Structure
-- `notebooks/` → Jupyter notebooks for interactive exploration.
-- `src/` → Python scripts for training and preprocessing.
-- `models/` → Trained Keras models (`numeros_conv.h5`).
-- `tfjs_model/` → TensorFlow.js converted model for web use.
+- `src/` → Jupyter notebooks for interactive exploration.
+
+
 
 ## Requirements
 - Python 3.9+  
